@@ -1,0 +1,204 @@
+Location: 146 Mutation Type: I inserted Letter: A
+Location: 107 Mutation Type: I inserted Letter: G
+Location: 104 Mutation Type: I inserted Letter: T
+Location: 223 Mutation Type: S substitute pair: (A, G)
+Location: 211 Mutation Type: S substitute pair: (G, T)
+Location: 23078 Mutation Type: S substitute pair: (A, T)
+Location: 23035 Mutation Type: S substitute pair: (A, C)
+Location: 23177 Mutation Type: I inserted Letter: A
+Location: 23237 Mutation Type: S substitute pair: (A, G)
+Location: 23295 Mutation Type: S substitute pair: (G, T)
+Location: 23272 Mutation Type: S substitute pair: (T, G)
+Location: 24096 Mutation Type: S substitute pair: (T, C)
+Location: 24051 Mutation Type: S substitute pair: (T, G)
+Location: 24170 Mutation Type: S substitute pair: (T, C)
+Location: 24128 Mutation Type: I inserted Letter: C
+Location: 24294 Mutation Type: I inserted Letter: C
+Location: 24425 Mutation Type: I inserted Letter: A
+Location: 24660 Mutation Type: I inserted Letter: G
+Location: 24784 Mutation Type: D deleted Letter: T
+Location: 24724 Mutation Type: S substitute pair: (A, G)
+Location: 25084 Mutation Type: I inserted Letter: C
+Location: 25070 Mutation Type: I inserted Letter: G
+Location: 25099 Mutation Type: I inserted Letter: T
+Location: 25168 Mutation Type: I inserted Letter: C
+Location: 25111 Mutation Type: S substitute pair: (A, C)
+Location: 25234 Mutation Type: S substitute pair: (T, G)
+Location: 25363 Mutation Type: I inserted Letter: G
+Location: 25314 Mutation Type: I inserted Letter: G
+Location: 25594 Mutation Type: S substitute pair: (G, A)
+Location: 25571 Mutation Type: I inserted Letter: C
+Location: 25540 Mutation Type: I inserted Letter: T
+Location: 25613 Mutation Type: S substitute pair: (G, C)
+Location: 26614 Mutation Type: S substitute pair: (T, A)
+Location: 26780 Mutation Type: I inserted Letter: T
+Location: 26919 Mutation Type: I inserted Letter: G
+Location: 27099 Mutation Type: S substitute pair: (A, G)
+Location: 27148 Mutation Type: I inserted Letter: C
+Location: 27551 Mutation Type: S substitute pair: (T, C)
+Location: 27751 Mutation Type: S substitute pair: (G, A)
+Location: 28743 Mutation Type: S substitute pair: (T, C)
+Location: 28814 Mutation Type: S substitute pair: (T, G)
+Location: 29100 Mutation Type: S substitute pair: (G, A)
+Location: 32958 Mutation Type: S substitute pair: (T, A)
+Location: 33633 Mutation Type: S substitute pair: (G, A)
+Location: 34074 Mutation Type: S substitute pair: (A, C)
+Location: 34588 Mutation Type: I inserted Letter: G
+Location: 34715 Mutation Type: S substitute pair: (A, T)
+Location: 34859 Mutation Type: I inserted Letter: T
+Location: 35862 Mutation Type: S substitute pair: (T, G)
+Location: 36093 Mutation Type: I inserted Letter: T
+Location: 36031 Mutation Type: I inserted Letter: C
+Location: 36166 Mutation Type: I inserted Letter: A
+Location: 36389 Mutation Type: I inserted Letter: A
+Location: 36468 Mutation Type: I inserted Letter: C
+Location: 36420 Mutation Type: I inserted Letter: T
+Location: 36544 Mutation Type: S substitute pair: (C, A)
+Location: 36511 Mutation Type: S substitute pair: (A, T)
+Location: 36611 Mutation Type: I inserted Letter: A
+Location: 36757 Mutation Type: S substitute pair: (C, T)
+Location: 36751 Mutation Type: S substitute pair: (C, A)
+Location: 36986 Mutation Type: I inserted Letter: G
+Location: 36901 Mutation Type: S substitute pair: (C, A)
+Location: 36999 Mutation Type: S substitute pair: (C, G)
+Location: 37161 Mutation Type: I inserted Letter: A
+Location: 37183 Mutation Type: I inserted Letter: C
+Location: 37128 Mutation Type: S substitute pair: (G, T)
+Location: 37390 Mutation Type: S substitute pair: (T, G)
+Location: 37325 Mutation Type: S substitute pair: (A, T)
+Location: 37421 Mutation Type: I inserted Letter: A
+Location: 37655 Mutation Type: S substitute pair: (A, T)
+Location: 37861 Mutation Type: D deleted Letter: T
+Location: 37899 Mutation Type: S substitute pair: (T, G)
+Location: 37918 Mutation Type: S substitute pair: (C, A)
+Location: 37915 Mutation Type: S substitute pair: (T, A)
+Location: 38777 Mutation Type: S substitute pair: (G, C)
+Location: 38947 Mutation Type: S substitute pair: (T, C)
+Location: 39160 Mutation Type: I inserted Letter: T
+Location: 39140 Mutation Type: S substitute pair: (G, T)
+Location: 39257 Mutation Type: S substitute pair: (A, T)
+Location: 39679 Mutation Type: S substitute pair: (G, A)
+Location: 39739 Mutation Type: S substitute pair: (A, C)
+Location: 39797 Mutation Type: S substitute pair: (T, A)
+Location: 39750 Mutation Type: S substitute pair: (G, T)
+Location: 40027 Mutation Type: S substitute pair: (C, T)
+Location: 41517 Mutation Type: S substitute pair: (A, C)
+Location: 41838 Mutation Type: I inserted Letter: A
+Location: 41959 Mutation Type: S substitute pair: (T, C)
+Location: 42148 Mutation Type: D deleted Letter: A
+Location: 42214 Mutation Type: D deleted Letter: G
+Location: 42319 Mutation Type: S substitute pair: (G, A)
+Location: 42557 Mutation Type: S substitute pair: (C, G)
+Location: 42579 Mutation Type: S substitute pair: (A, T)
+Location: 42577 Mutation Type: S substitute pair: (A, G)
+Location: 42831 Mutation Type: S substitute pair: (C, A)
+Location: 43150 Mutation Type: S substitute pair: (A, T)
+Location: 43303 Mutation Type: S substitute pair: (C, T)
+Location: 43331 Mutation Type: S substitute pair: (C, A)
+Location: 43305 Mutation Type: S substitute pair: (G, T)
+Location: 43435 Mutation Type: S substitute pair: (A, G)
+Location: 43592 Mutation Type: S substitute pair: (C, T)
+Location: 43584 Mutation Type: S substitute pair: (T, A)
+Location: 43524 Mutation Type: D deleted Letter: T
+Location: 43654 Mutation Type: S substitute pair: (A, G)
+Location: 43637 Mutation Type: S substitute pair: (A, C)
+Location: 43613 Mutation Type: S substitute pair: (G, T)
+Location: 43772 Mutation Type: S substitute pair: (A, G)
+Location: 43755 Mutation Type: I inserted Letter: C
+Location: 43876 Mutation Type: S substitute pair: (G, T)
+Location: 44135 Mutation Type: S substitute pair: (C, A)
+Location: 44217 Mutation Type: S substitute pair: (A, T)
+Location: 44271 Mutation Type: S substitute pair: (A, C)
+Location: 44268 Mutation Type: S substitute pair: (A, C)
+Location: 44303 Mutation Type: S substitute pair: (A, C)
+Location: 44355 Mutation Type: S substitute pair: (A, T)
+Location: 44319 Mutation Type: S substitute pair: (C, T)
+Location: 44497 Mutation Type: S substitute pair: (G, T)
+Location: 44478 Mutation Type: S substitute pair: (G, A)
+Location: 44581 Mutation Type: I inserted Letter: C
+Location: 44578 Mutation Type: I inserted Letter: T
+Location: 44556 Mutation Type: S substitute pair: (T, G)
+Location: 44624 Mutation Type: S substitute pair: (C, T)
+Location: 44609 Mutation Type: S substitute pair: (A, T)
+Location: 44685 Mutation Type: S substitute pair: (G, A)
+Location: 44749 Mutation Type: I inserted Letter: C
+Location: 44714 Mutation Type: D deleted Letter: G
+Location: 44786 Mutation Type: S substitute pair: (G, T)
+Location: 44831 Mutation Type: S substitute pair: (A, C)
+Location: 44887 Mutation Type: S substitute pair: (G, T)
+Location: 44820 Mutation Type: S substitute pair: (A, C)
+Location: 44949 Mutation Type: I inserted Letter: G
+Location: 44947 Mutation Type: S substitute pair: (G, T)
+Location: 44991 Mutation Type: I inserted Letter: A
+Location: 45069 Mutation Type: I inserted Letter: T
+Location: 45100 Mutation Type: S substitute pair: (G, C)
+Location: 45092 Mutation Type: I inserted Letter: C
+Location: 45172 Mutation Type: I inserted Letter: C
+Location: 45134 Mutation Type: I inserted Letter: A
+Location: 45103 Mutation Type: I inserted Letter: T
+Location: 45264 Mutation Type: S substitute pair: (A, C)
+Location: 45292 Mutation Type: S substitute pair: (A, C)
+Location: 45231 Mutation Type: S substitute pair: (A, T)
+Location: 45361 Mutation Type: S substitute pair: (G, T)
+Location: 45329 Mutation Type: S substitute pair: (T, C)
+Location: 45301 Mutation Type: D deleted Letter: C
+Location: 45462 Mutation Type: S substitute pair: (G, C)
+Location: 45484 Mutation Type: S substitute pair: (A, G)
+Location: 45464 Mutation Type: S substitute pair: (T, C)
+Location: 45572 Mutation Type: I inserted Letter: C
+Location: 45543 Mutation Type: S substitute pair: (A, T)
+Location: 45531 Mutation Type: S substitute pair: (C, G)
+Location: 45677 Mutation Type: S substitute pair: (A, G)
+Location: 45672 Mutation Type: S substitute pair: (A, T)
+Location: 45608 Mutation Type: I inserted Letter: G
+Location: 45784 Mutation Type: S substitute pair: (C, G)
+Location: 45770 Mutation Type: S substitute pair: (G, C)
+Location: 45739 Mutation Type: S substitute pair: (T, G)
+Location: 45896 Mutation Type: I inserted Letter: A
+Location: 45887 Mutation Type: S substitute pair: (A, T)
+Location: 45874 Mutation Type: S substitute pair: (A, T)
+Location: 45967 Mutation Type: I inserted Letter: T
+Location: 45942 Mutation Type: S substitute pair: (T, C)
+Location: 45952 Mutation Type: S substitute pair: (C, A)
+Location: 46040 Mutation Type: S substitute pair: (A, C)
+Location: 46007 Mutation Type: S substitute pair: (C, T)
+Location: 46095 Mutation Type: S substitute pair: (C, T)
+Location: 46178 Mutation Type: S substitute pair: (T, G)
+Location: 46176 Mutation Type: D deleted Letter: A
+Location: 46171 Mutation Type: S substitute pair: (G, C)
+Location: 46295 Mutation Type: S substitute pair: (C, A)
+Location: 46259 Mutation Type: D deleted Letter: G
+Location: 46249 Mutation Type: S substitute pair: (T, A)
+Location: 46400 Mutation Type: I inserted Letter: T
+Location: 46395 Mutation Type: I inserted Letter: G
+Location: 46389 Mutation Type: S substitute pair: (G, T)
+Location: 46499 Mutation Type: I inserted Letter: A
+Location: 46486 Mutation Type: S substitute pair: (A, T)
+Location: 46465 Mutation Type: I inserted Letter: T
+Location: 46581 Mutation Type: I inserted Letter: A
+Location: 46572 Mutation Type: I inserted Letter: A
+Location: 46569 Mutation Type: S substitute pair: (G, C)
+Location: 46629 Mutation Type: S substitute pair: (T, A)
+Location: 46604 Mutation Type: S substitute pair: (G, T)
+Location: 46696 Mutation Type: S substitute pair: (C, A)
+Location: 46774 Mutation Type: S substitute pair: (C, A)
+Location: 46734 Mutation Type: S substitute pair: (T, A)
+Location: 46782 Mutation Type: S substitute pair: (T, C)
+Location: 46865 Mutation Type: S substitute pair: (A, C)
+Location: 46833 Mutation Type: S substitute pair: (G, T)
+Location: 46885 Mutation Type: S substitute pair: (A, G)
+Location: 46989 Mutation Type: D deleted Letter: A
+Location: 46928 Mutation Type: S substitute pair: (G, A)
+Location: 47000 Mutation Type: S substitute pair: (C, T)
+Location: 47044 Mutation Type: S substitute pair: (G, C)
+Location: 47028 Mutation Type: S substitute pair: (G, C)
+Location: 47091 Mutation Type: S substitute pair: (G, C)
+Location: 47179 Mutation Type: S substitute pair: (T, C)
+Location: 47138 Mutation Type: S substitute pair: (G, T)
+Location: 47136 Mutation Type: I inserted Letter: A
+Location: 47226 Mutation Type: I inserted Letter: A
+Location: 47214 Mutation Type: S substitute pair: (A, T)
+Location: 47205 Mutation Type: S substitute pair: (T, G)
+Location: 47327 Mutation Type: S substitute pair: (G, T)
+Location: 47307 Mutation Type: S substitute pair: (C, T)
+Location: 47353 Mutation Type: S substitute pair: (A, T)

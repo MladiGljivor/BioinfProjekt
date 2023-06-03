@@ -103,10 +103,6 @@ std::tuple<std::string, std::string, int> semi_global_alignment(const std::strin
     return std::make_tuple(A_aligned, B_aligned, max_score);
 }
 
-// BOOST_PYTHON_MODULE(alignment_module) {
-//     using namespace boost::python;
-//     def("semi_global_alignment", semi_global_alignment);
-// }
 
 int maini() {
     std::string seqA = "CAGCACTTGGATTCTCGG";

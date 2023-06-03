@@ -14,39 +14,6 @@ using namespace std;
 
 #include <fstream>
 
-// void saveMapsToFile(const std::unordered_map<int, std::vector<std::tuple<int, char, char, char>>>& mutationDictionary,
-//                     const std::unordered_map<int, int>& numberOfTimesLocationVisited,
-//                     const std::string& filename) {
-//     std::ofstream file(filename);
-
-//     if (file.is_open()) {
-//         // Save mutationDictionary
-//         for (const auto& entry : mutationDictionary) {
-//             int location = entry.first;
-//             const auto& mutations = entry.second;
-
-//             file << "Location: " << location << std::endl;
-//             for (const auto& mutation : mutations) {
-//                 int sequenceNum = std::get<0>(mutation);
-//                 char originalChar = std::get<1>(mutation);
-//                 char mutatedChar = std::get<2>(mutation);
-//                 char mutationType = std::get<3>(mutation);
-
-//                 file << "Sequence: " << sequenceNum << " Mutation: " << mutationType << " Original: " << originalChar << " Mutated: " << mutatedChar << std::endl;
-//             }
-//         }
-
-//         // Save numberOfTimesLocationVisited
-//         for (const auto& entry : numberOfTimesLocationVisited) {
-//             int location = entry.first;
-//             int count = entry.second;
-
-//             file << "Location: " << location << " Count: " << count << std::endl;
-//         }
-
-//         file.close();
-//     }
-// }
 
 // Dictionary to store mutations
 
@@ -224,7 +191,7 @@ int main() {
 
 
     ofstream output_file("ecoli_mapping_result.txt");
-    for (int i = 1; i < 31416; i++) {
+    for (int i = 1; i < 31416; i += 3) {
         string mappingInfoOriginal = ecoliMappingDictionary[to_string(i)];
         if(mappingInfoOriginal.empty()) {
             continue;
@@ -233,23 +200,20 @@ int main() {
         string startLocationOriginal = mappingInfoOriginal.substr(0, mappingInfoOriginal.find(":"));
         string sequence = ecoli_sequence_dict[i];
         int sequenceLength = sequence.length();
-        //output_file << "Sequence " << i << ", is of length " << sequenceLength << ", mapped to " << original_or_complement << ", on beginning location of: " << startLocation << "\n";
-        //cout << "Sequence " << i << ", is of length " << sequenceLength << ", mapped to " << original_or_complement << ", on beginning location of: " << startLocation << "\n";
+
+        if(startLocationOriginal.empty()){
+            continue;
+        }
 
         string substring_original = ecoli_content.substr(stoi(startLocationOriginal), sequenceLength);
         auto start_time = chrono::steady_clock::now();
         tuple<string, string, int> original_alignment_result = semi_global_alignment(substring_original, sequence, 2, -1, -2);
         auto end_time = chrono::steady_clock::now();
         double execution_time = chrono::duration<double>(end_time - start_time).count();
-        //cout << "Execution time 1 is: " << execution_time << endl;
 
         string mappingInfoComplement = ecoliMappingDictionary[to_string(i + 247)];
         original_or_complement = mappingInfoComplement.substr(mappingInfoComplement.find(":") + 1);
         string startLocationComplement = mappingInfoComplement.substr(0, mappingInfoComplement.find(":"));
-        // if(i == 247){
-        //     original_or_complement = "reversedComplement";
-        //     startLocationComplement = "12933";
-        // }
         sequence = ecoli_sequence_dict[i];
         sequenceLength = sequence.length();
 
@@ -259,13 +223,14 @@ int main() {
         int size = A_1.size();
         int size2 = B_1.size();
 
-
+        if(startLocationComplement.empty()){
+            continue;
+        }
         string substring_complement = ecoli_content.substr(stoi(startLocationComplement) , sequenceLength );
         start_time = chrono::steady_clock::now();
         tuple<string, string, int> complement_alignment_result = semi_global_alignment(substring_complement, sequence, 2, -1, -2);
         end_time = chrono::steady_clock::now();
         execution_time = chrono::duration<double>(end_time - start_time).count();
-        //cout << "Execution time 2 is: " << execution_time << endl;
 
         int firstScore = std::get<2>(original_alignment_result); 
         int secondScore = std::get<2>(complement_alignment_result);
@@ -309,7 +274,6 @@ int main() {
 
         output_file_result << "Location: " << location;
         
-        // Check if the location is in numberOfTimesLocationVisited
         if (numberOfTimesLocationVisited.count(location) > 0) {
             int count = numberOfTimesLocationVisited[location];
             output_file_result << " Visited: " << count << " time(s)";
@@ -328,9 +292,6 @@ int main() {
     }
 
     output_file_result.close();
-
-    //saveMapsToFile(mutationDictionary, numberOfTimesLocationVisited, "stored_maps.txt");
-
 
     return 0;
 }

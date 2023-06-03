@@ -81,8 +81,6 @@ def main():
             minimizer_original_dictionary[minimizer_hash] = locations_array
             #print(locations_array)
 
-
-
     
     with open("ecoli-mapping.txt", "w") as file:
         brojac = 0
@@ -128,8 +126,7 @@ def main():
             max_length_in_original_code, longest_sequence_in_original_code = lis(minimizers_triples_list)
             used_code_text_file = "original"
 
-            #printani = ", ".join(map(str, longest_sequence_in_original_code))
-            #print(printani)
+
             
             location = longest_sequence_in_original_code[0].position_original
             string = str(brojac) + "->" + str(location).replace(" ","") + ":" + used_code_text_file
@@ -138,8 +135,6 @@ def main():
             else:
                 file.write(string + ",")
 
-
-        #print(brojac)
         for chunk in chunks_reverseComplement:
 
             if brojac == len(chunks_reverseComplement) * 2 or chunk == "" :

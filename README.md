@@ -8,7 +8,7 @@ the most probable start location for the beggining of that sequence in reference
         number_of_sequence -> startLocation, [original or reversedComplement] 
 Original or reverse complement tells us if that sequence is original sequence or reversedComplement of that seqeunce. Then for every mapping we have here, 
 In x_mapping.cpp we do semi-global alignment with scores (match: +2, substitute: -1, indel: -2) and from doing alignment for every seqeunce on normal and
-reverse-complement code we look which of these two has the higher result and from that better alignment we write every mutation we found in txr file: x_mutations.txt.
+reverse-complement code we look which of these two has the higher result and from that better alignment we write every mutation we found in txt file: x_mutations.txt.
 For alignment we use the code in alignment.cpp file.
 And then for the last code file, we analyze all locations in genome, we take the ratio of:
       how much times we found the mutation on that location / how much times we visited that location during the process of alignment
